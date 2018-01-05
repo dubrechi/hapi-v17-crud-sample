@@ -1,0 +1,28 @@
+{
+  "name": "HapiCrudSample",
+  "description": "A simple CRUD using Hapi v17",
+  "author": "dubrechi",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "lab -c -v -L -a code"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "hapi": ">=17.2.x",
+    "knex": ">=0.12.x",
+    "pg": ">=6.1.x",
+    "hapi-knex-postgres": ">=0.1.2"
+  },
+  "devDependencies": {
+    "hapi": "17.2.x",
+    "knex": ">=0.12.x",
+    "pg": ">=6.1.x",
+    "hapi-knex-postgres": ">=0.1.2"
+  }
+}
